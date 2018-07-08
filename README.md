@@ -17,8 +17,14 @@ Example:
 nn.train(train_X, train_y, convert=True, epochs=200, display_step=20)
 ```
 
-To evaluate the accuracy of the model on the test set, use the NeuralNetwork.predict() function.
-This function requires a single element from the test set and returns the predicted output for this element.
+To evaluate the accuracy of the model on the dataset, use the NeuralNetwork.accuracy() function. This function requires the inputs and targets of the respective dataset.
+
+Example:
+```python
+acc = nn.accuracy(test_X, test_y)
+```
+
+You can also use NeuralNetwork.predict() to get the predicted value for one element of the test set. A return value of zero means the first neuron in the output layer has been activated.
 
 Example:
 ```python
