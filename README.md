@@ -1,5 +1,8 @@
 # Experimental NN-library for Python 3
 
+If you are unable to view the notebook use the following link:
+https://nbviewer.jupyter.org/github/jonasstr/multilayer_nn/blob/master/Neural%20Network%20v3.ipynb
+
 ## Usage
 Use the constructor of the NeuralNetwork class to create a new network.
 You must specify the number of input neurons, a list containing the number of neurons for a variable amount of hidden layers, the number of output neurons, the learning rate, as well as the activation function.
