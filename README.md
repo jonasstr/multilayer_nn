@@ -1,6 +1,6 @@
 # Experimental NN-library for Python 3
 
-If you are unable to view the notebook use the following link:  
+If you are unable to view the notebook on GitHub use the following link:  
 https://nbviewer.jupyter.org/github/jonasstr/multilayer_nn/blob/master/Neural%20Network%20v3.ipynb
 
 ## Usage
